@@ -1,5 +1,7 @@
 # @heyanfeng/create-modern-starter
 
+English | [简体中文](README.zh-CN.md)
+
 A modern, opinionated CLI to scaffold production-ready frontend projects. Built for speed and best practices.
 
 ![License](https://img.shields.io/github/license/heyanfeng/create-modern-starter)
