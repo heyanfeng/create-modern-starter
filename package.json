@@ -1,0 +1,50 @@
+{
+  "name": "@heyanfeng/create-modern-starter",
+  "version": "1.0.0",
+  "description": "A CLI to create modern frontend projects with best practices",
+  "type": "module",
+  "bin": {
+    "create-modern-starter": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "templates"
+  ],
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "starter",
+    "react",
+    "vue",
+    "typescript",
+    "vite",
+    "tailwind"
+  ],
+  "author": "heyanfeng",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heyanfeng/create-modern-starter.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "fs-extra": "^11.3.0",
+    "kolorist": "^1.8.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.13.9",
+    "@types/prompts": "^2.4.9",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  }
+}
